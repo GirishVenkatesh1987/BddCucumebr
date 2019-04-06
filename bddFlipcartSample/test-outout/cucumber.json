@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 47360,
+              "duration": 46933,
               "status": "passed"
             },
             "match": {
@@ -19,7 +19,7 @@
           },
           {
             "result": {
-              "duration": 41813,
+              "duration": 43520,
               "status": "passed"
             },
             "match": {
@@ -28,7 +28,7 @@
           },
           {
             "result": {
-              "duration": 39253,
+              "duration": 38827,
               "status": "passed"
             },
             "match": {
@@ -46,7 +46,7 @@
         "before": [
           {
             "result": {
-              "duration": 231680,
+              "duration": 181333,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 82347,
+              "duration": 113066,
               "status": "passed"
             },
             "match": {
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 80640,
+              "duration": 82773,
               "status": "passed"
             },
             "match": {
@@ -79,7 +79,7 @@
         "steps": [
           {
             "result": {
-              "duration": 111234796,
+              "duration": 141263972,
               "status": "passed"
             },
             "name": "flip cart url is loaded",
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 52053,
+              "duration": 53333,
               "status": "passed"
             },
             "name": "verify the flipcart title",
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 1885436,
+              "duration": 1935356,
               "status": "passed"
             },
             "name": "search criteria is \"mobile\"",
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 134826,
+              "duration": 119893,
               "status": "passed"
             },
             "name": "filter brand search \"Gi\" and \"Gionee\"",
@@ -150,7 +150,7 @@
           },
           {
             "result": {
-              "duration": 88319,
+              "duration": 87893,
               "status": "passed"
             },
             "name": "filter ram value \"2 GB\"",
@@ -173,6 +173,6 @@
         "type": "scenario"
       }
     ],
-    "uri": "F:/Implementation/Cucumber/FlipcartSample/bddFlipcartSample/src/main/java/Features/first.feature"
+    "uri": "F:/Implementation/Cucumber/FlipcartSample/bddFlipcartSample/src/test/java/Features/first.feature"
   }
 ]

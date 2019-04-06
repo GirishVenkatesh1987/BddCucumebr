@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.113919">
-<testcase classname="FlipCart Sample" name="Search, filter and get first product" time="0.113919">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.143967">
+<testcase classname="FlipCart Sample" name="Search, filter and get first product" time="0.143967">
 <system-out><![CDATA[Given flip cart url is loaded...............................................passed
 When verify the flipcart title..............................................passed
 Then search criteria is "mobile"............................................passed

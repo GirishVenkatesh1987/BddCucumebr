@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			features = "F:\\Implementation\\Cucumber\\FlipcartSample\\bddFlipcartSample\\src\\main\\java\\Features\\first.feature", //the path of the feature files
+			features = "F:\\Implementation\\Cucumber\\FlipcartSample\\bddFlipcartSample\\src\\test\\java\\Features\\first.feature", //the path of the feature files
 			glue={"stepDefinitions"}, //the path of the step definition files
 			format= {"pretty","html:test-outout", "json:test-outout/cucumber.json", "junit:test-outout/cucumber.xml"}, //to generate different types of reporting
 			monochrome = true, //display the console output in a proper readable format

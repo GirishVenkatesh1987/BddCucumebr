@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("F:/Implementation/Cucumber/FlipcartSample/bddFlipcartSample/src/main/java/Features/first.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("F:/Implementation/Cucumber/FlipcartSample/bddFlipcartSample/src/test/java/Features/first.feature");
 formatter.feature({
   "id": "flipcart-sample",
   "description": "",
@@ -75,15 +75,15 @@ formatter.examples({
   ]
 });
 formatter.before({
-  "duration": 231680,
+  "duration": 181333,
   "status": "passed"
 });
 formatter.before({
-  "duration": 82347,
+  "duration": 113066,
   "status": "passed"
 });
 formatter.before({
-  "duration": 80640,
+  "duration": 82773,
   "status": "passed"
 });
 formatter.scenario({
@@ -139,14 +139,14 @@ formatter.match({
   "location": "StepDefinition.this_is_the_first_step()"
 });
 formatter.result({
-  "duration": 111234796,
+  "duration": 141263972,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.this_is_the_second_step()"
 });
 formatter.result({
-  "duration": 52053,
+  "duration": 53333,
   "status": "passed"
 });
 formatter.match({
@@ -159,7 +159,7 @@ formatter.match({
   "location": "StepDefinition.this_is_the_third_step(String)"
 });
 formatter.result({
-  "duration": 1885436,
+  "duration": 1935356,
   "status": "passed"
 });
 formatter.match({
@@ -176,7 +176,7 @@ formatter.match({
   "location": "StepDefinition.this_is_the_fourth_step(String,String)"
 });
 formatter.result({
-  "duration": 134826,
+  "duration": 119893,
   "status": "passed"
 });
 formatter.match({
@@ -189,19 +189,19 @@ formatter.match({
   "location": "StepDefinition.this_is_the_fifth_step(String)"
 });
 formatter.result({
-  "duration": 88319,
+  "duration": 87893,
   "status": "passed"
 });
 formatter.after({
-  "duration": 47360,
+  "duration": 46933,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41813,
+  "duration": 43520,
   "status": "passed"
 });
 formatter.after({
-  "duration": 39253,
+  "duration": 38827,
   "status": "passed"
 });
 });
