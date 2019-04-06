@@ -1,0 +1,342 @@
+[
+  {
+    "id": "test-tagged-hooks",
+    "description": "",
+    "name": "Test Tagged Hooks",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 87894,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 88746,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87040,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "id": "test-tagged-hooks;this-is-first-test",
+        "tags": [
+          {
+            "name": "@First",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 272213,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 89173,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62293,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeFirst()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "This is First test",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 1017611063,
+              "status": "passed"
+            },
+            "name": "this is the first step",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122027,
+              "status": "passed"
+            },
+            "name": "this is the second step",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 104533,
+              "status": "passed"
+            },
+            "name": "this is the third step",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 148907,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 347733,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 128854,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "id": "test-tagged-hooks;this-is-second-test",
+        "tags": [
+          {
+            "name": "@Second",
+            "line": 9
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 260693,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 721918,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 148480,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeSecond()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "This is Second test",
+        "keyword": "Scenario",
+        "line": 10,
+        "steps": [
+          {
+            "result": {
+              "duration": 127573,
+              "status": "passed"
+            },
+            "name": "this is the first step",
+            "keyword": "Given ",
+            "line": 11,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 162560,
+              "status": "passed"
+            },
+            "name": "this is the second step",
+            "keyword": "When ",
+            "line": 12,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 113067,
+              "status": "passed"
+            },
+            "name": "this is the third step",
+            "keyword": "Then ",
+            "line": 13,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 68267,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 72960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 231253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "id": "test-tagged-hooks;this-is-third-test",
+        "tags": [
+          {
+            "name": "@Third",
+            "line": 15
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 1739091,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 374186,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 774398,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeThird()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "This is Third test",
+        "keyword": "Scenario",
+        "line": 16,
+        "steps": [
+          {
+            "result": {
+              "duration": 71253,
+              "status": "passed"
+            },
+            "name": "this is the first step",
+            "keyword": "Given ",
+            "line": 17,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66133,
+              "status": "passed"
+            },
+            "name": "this is the second step",
+            "keyword": "When ",
+            "line": 18,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 200106,
+              "status": "passed"
+            },
+            "name": "this is the third step",
+            "keyword": "Then ",
+            "line": 19,
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "F:/Implementation/Cucumber/FlipcartSample/bddFlipcartSample/src/main/java/Features/first.feature"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "flipcart-sample",
+    "description": "",
+    "name": "FlipCart Sample",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "after": [
+          {
+            "result": {
+              "duration": 47360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.afterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41813,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 39253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "id": "flipcart-sample;search,-filter-and-get-first-product;;2",
+        "tags": [
+          {
+            "name": "@First",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 231680,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 82347,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 80640,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeFirst()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Search, filter and get first product",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "steps": [
+          {
+            "result": {
+              "duration": 111234796,
+              "status": "passed"
+            },
+            "name": "flip cart url is loaded",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "StepDefinition.this_is_the_first_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52053,
+              "status": "passed"
+            },
+            "name": "verify the flipcart title",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "StepDefinition.this_is_the_second_step()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1885436,
+              "status": "passed"
+            },
+            "name": "search criteria is \"mobile\"",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobile",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.this_is_the_third_step(String)"
+            },
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "result": {
+              "duration": 134826,
+              "status": "passed"
+            },
+            "name": "filter brand search \"Gi\" and \"Gionee\"",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gi",
+                  "offset": 21
+                },
+                {
+                  "val": "Gionee",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinition.this_is_the_fourth_step(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 88319,
+              "status": "passed"
+            },
+            "name": "filter ram value \"2 GB\"",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 GB",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.this_is_the_fifth_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "F:/Implementation/Cucumber/FlipcartSample/bddFlipcartSample/src/main/java/Features/first.feature"
+  }
+]

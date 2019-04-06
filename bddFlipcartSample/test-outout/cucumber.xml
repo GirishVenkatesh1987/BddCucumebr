@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.113919">
+<testcase classname="FlipCart Sample" name="Search, filter and get first product" time="0.113919">
+<system-out><![CDATA[Given flip cart url is loaded...............................................passed
+When verify the flipcart title..............................................passed
+Then search criteria is "mobile"............................................passed
+Then filter brand search "Gi" and "Gionee"..................................passed
+Then filter ram value "2 GB"................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
